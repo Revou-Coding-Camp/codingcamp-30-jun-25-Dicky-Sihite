@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dicky Sihite - Portofolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+    <script src="js/script.js" defer></script>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Portofolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm Dicky Sihite</h1>
+      <p>Informatics Management | Web & Mobile App Developer | UI/UX Designer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-img">
+      <img src="img/profile.png" alt="Dicky Profile Photo" />
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Informatics Management student at Universitas Negeri Surabaya with a strong interest in mobile and web application development. Skilled in UI/UX design and passionate about problem-solving as a programmer. Always eager to learn new things and grow in the tech industry.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Flutter</div>
+      <div class="skill">Laravel</div>
+      <div class="skill">REST API</div>
+      <div class="skill">Figma</div>
+      <div class="skill">SQL</div>
+    </div>
+  </section>
+    <!-- Social Sidebar -->
+    <div class="social-sidebar">
+    <a href="https://www.linkedin.com/in/dickysihite/" target="_blank" class="social-icon">
+        <img src="img/linkedin.svg" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/Dicky-Sihite" target="_blank" class="social-icon">
+        <img src="img/github.svg" alt="GitHub">
+    </a>
+    <a href="https://www.tiktok.com/@dickysht" target="_blank" class="social-icon">
+        <img src="img/tiktok.svg" alt="Tiktok">
+    </a>
+    <a href="https://www.instagram.com/dicky_sihite.02/" target="_blank" class="social-icon">
+        <img src="img/instagram.svg" alt="Instagram">
+    </a>
+    </div>
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="scroll-controls">
+      <button class="scroll-btn left" onclick="scrollProjects(-1)">&#10094;</button>
+      <div class="projects-scroll" id="projectScroll">
+  <!-- ARI -->
+  <div class="project-card" onclick="toggleCard(this)">
+      <img src="img/project-weather.png" alt="Weather App ARI" class="project-img">
+      <h3>Weather App ARI</h3>
+      <p>The ARI application is a mobile-based weather app designed to provide users with real-time weather information. Developed using the Flutter framework, the app integrates directly with the OpenWeatherMap API to retrieve accurate and up-to-date global weather data.</p>
+      <div class="project-details">
+          <h4>Features:</h4>
+          <ul>
+              <li>Daily weather forecasts</li>
+              <li>City-based search</li>
+              <li>Dark mode</li>
+              <li>Integration with global weather API</li>
+            </ul>
+        </div>
+        <a href="https://github.com/Dicky-Sihite/ARI" class="btn-small" target="_blank">View on GitHub</a>
+    </div>
+    
+    <!-- Talenta -->
+    <div class="project-card" onclick="toggleCard(this)">
+        <img src="img/project-SIM.png" alt="TALENTA Campus Talent & Content Information System" class="project-img">
+        <h3>TALENTA Campus Talent & Content Information SystemI</h3>
+          <p>TALENTA is a web-based information system designed to showcase and manage student talents across various domains such as music, film, creative content, and more. The system serves as a centralized platform for students to create talent profiles, upload portfolios, participate in auditions, and gain public visibility.</p>
+          <div class="project-details">
+          <p>The platform is developed using the Laravel framework with a clear separation of concerns through the Model-View-Controller (MVC) architecture. It targets multiple user roles—Students, Judges, Administrators, and Public Visitors—with distinct functionalities for each.</p>  
+          <h4>Features:</h4>
+          <ul>
+              <li>Public User Module</li>
+              <li>Student (Talent) Module</li>
+              <li>Judge Module</li>
+              <li>Admin Module</li>
+            </ul>
+        </div>
+        <a href="https://github.com/Dicky-Sihite/ARI" class="btn-small" target="_blank">View on GitHub</a>
+    </div>
+    
+    <!-- Item Rift -->
+    <div class="project-card" onclick="toggleCard(this)">
+        <img src="img/project-Itemrift.png" alt="Item-Rift" class="project-img">
+          <h3>Item-Rift</h3>
+          <p>Item-Rift is a web-based marketplace platform specifically designed to facilitate peer-to-peer transactions of pre-owned goods among university students. The platform addresses the lack of a centralized, trusted system for students to buy and sell second-hand items such as books, electronics, academic supplies, and furniture—items that are often still functional but underutilized.</p>
+          <div class="project-details">
+              <p>The application was developed to promote safe, sustainable, and affordable commerce in a campus environment, with a focus on circular economy practices. It reduces waste and encourages the reuse of goods while helping students save money and form a supportive community around responsible consumption.
+                  <h4>Features:</h4>
+                  <ul>
+                      <li>User Authentication & Role Management</li>
+                      <li>Item Listing & Management</li>
+                      <li>Messaging System</li>
+                      <li>Forum Module</li>
+                      <li>User Profile Management</li>
+                      <li>Admin Dashboard</li>
+                    </ul>
+                </div>
+                <a href="https://github.com/Dicky-Sihite/ARI" class="btn-small" target="_blank">View on GitHub</a>
+            </div>
+            
+    <!-- Jendela Informasi -->
+        <div class="project-card" onclick="toggleCard(this)">
+          <img src="img/project-jendela.png" alt="Jendela Informasi" class="project-img">
+          <h3>Jendela Informasi</h3>
+          <p>Jendela Informasi is a web-based news portal developed using the Laravel framework, designed to provide real-time and categorized news content across various sectors such as national, international, technology, education, entertainment, and more.
+          <div class="project-details">
+              <p>This platform was created to meet the growing demand for fast, accurate, and accessible online information, while also serving as a practical exercise in applying RESTful API integration within a modern web application environment.
+                  <h4>Features:</h4>
+                  <ul>
+                      <li>Presenting News in Real-Time</li>
+                      <li>CRUD Content for Admin</li>
+                      <li>Real-Time Chat</li>
+                      <li>Responsiveness and Accessibility</li>
+                      <li>RESTful API Integration</li>
+                      <li>Admin Dashboard</li>
+                    </ul>
+                </div>
+          <a href="https://github.com/Dicky-Sihite/ARI" class="btn-small" target="_blank">View on GitHub</a>
+        </div>
+
+      </div>
+      <button class="scroll-btn right" onclick="scrollProjects(1)">&#10095;</button>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <p class="contact-description">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+  <form class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Enter Your Message" required></textarea>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dicky Sihite.</p>
+  </footer>
+
+  <!-- Scroll Script -->
+  <script>
+    function scrollProjects(direction) {
+      const container = document.getElementById('projectScroll');
+      const scrollAmount = 320;
+      container.scrollBy({ left: scrollAmount * direction, behavior: 'smooth' });
+    }
+  </script>
+
+  <!-- ToggleCard Script -->
+  <script>
+    function toggleCard(card) {
+      const details = card.querySelector('.project-details');
+
+      if (!card.classList.contains('expanded')) {
+        details.style.height = details.scrollHeight + 'px';
+
+        details.addEventListener('transitionend', function handler() {
+          details.style.height = 'auto';
+          details.removeEventListener('transitionend', handler);
+        });
+
+        card.classList.add('expanded');
+      } else {
+        details.style.height = details.scrollHeight + 'px';
+
+        requestAnimationFrame(() => {
+          details.style.height = '0';
+        });
+
+        card.classList.remove('expanded');
+      }
+    }
+  </script>
+</body>
+</html>
